@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #729fe7; /* Azul marinho claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cabecalho {
+    position: fixed; /* Fixando o cabeçalho no topo */
+    top: 0;
+    left: auto;
+    text-align: center;
+    width: 70%;
+    background-color: #FFFFFF; /* Fundo branco para o cabeçalho */
+    padding: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 0 0 20px 20px; /* Borda arredondada apenas na parte inferior */
+}
+
+#quadro {
+    background-color: #FFFFFF; /* Branco */
+    border-radius: 20px; /* Borda arredondada */
+    padding: 20px;
+    width: 90%;
+    height: 80%;
+    margin-top: 80px; /* Espaçamento para evitar que o conteúdo fique sob o cabeçalho fixo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    overflow: auto;
+}
+
+/* Tornando a barra de rolagem invisível no WebKit (Chrome, Safari) */
+#quadro::-webkit-scrollbar {
+    width: 6px; /* Largura da barra de rolagem */
+}
+
+#quadro::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Cor da barra de rolagem */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
