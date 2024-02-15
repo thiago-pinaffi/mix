@@ -1,19 +1,19 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: #e2dff1;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #080227;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('../images/restaurant-logo_large.png') no-repeat;
+  background: url('../images/M da mix - s f.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
@@ -24,7 +24,7 @@ body {
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #fff;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -37,7 +37,7 @@ body {
   text-decoration: none;
 }
 .navbar-brand p { /* Kosher cert */
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
   font-size: .7em;
   margin-top: 15px;
@@ -50,11 +50,11 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #fff;
   text-align: center;
 }
 #nav-list a:hover {
-  background: #E7E7E7;
+  background: #9d0000;
 }
 #nav-list a span {
   font-size: 1.8em;
@@ -68,13 +68,13 @@ body {
   padding-bottom: 0;
 }
 #phone div { /* We Deliver */
-  color: #557c3e;
+  color: #fff;
   text-align: right;
   padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 1px solid #fff;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
@@ -87,7 +87,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #080227;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -100,7 +100,7 @@ body {
   font-size: 1.3em;
 }
 #address p {
-  color: #557c3e;
+  color: #fff;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -116,8 +116,8 @@ body {
 
 /* HOME PAGE */
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  box-shadow: 0 0 50px #fff;
+  border: 2px solid #fff;
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -125,7 +125,7 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #fff;
   overflow: hidden;
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
@@ -156,7 +156,7 @@ body {
 /* MENU CATEGORIES PAGE */
 .category-tile { 
   position: relative;
-  border: 2px solid #3F0C1F;
+  border: 2px solid #fff;
   overflow: hidden;
   width: 200px;
   height: 200px;
@@ -201,7 +201,7 @@ body {
 }
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3F0C1F; 
+  border: 2px solid #fff; 
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -214,7 +214,7 @@ body {
   bottom: 0;
   right: 0;
   width: 80px;
-  background-color: #557c3e;
+  background-color: #000000;
   text-align: center;
 }
 .menu-item-description {
@@ -233,7 +233,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    background: url('../images/mix_large_1200_675px.png') no-repeat;
     height: 675px;
   }
 }
@@ -242,16 +242,18 @@ h3.menu-item-title {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
+    background: url('../images/M da mix - s f.png') no-repeat;
+    /*width: 100px;*/
     height: 100px;
+    background-position: center center;
     margin: 5px 5px 5px 0;
+    
   }
   /* End Header */
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
+    background: url('../images/mix_medium.png') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -261,7 +263,7 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
+    background: url('../images/mix_small_720_432px.png') no-repeat;
     height: 432px;
   }
   /* End Home Page */
@@ -300,8 +302,8 @@ h3.menu-item-title {
     margin: 0 20px;
     padding: 10px;
     border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
+    background-color: #080227;
+    color: #fff;
   }
   #xs-deliver {
     margin-top: 5px;
